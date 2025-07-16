@@ -37,6 +37,9 @@ import {
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
+import skillcat from "../assets/company/skillcat.png";
+import sagasit from "../assets/company/sagasit.png";
+import thoughtspot from "../assets/company/thoughtspot.png";
 
 
 export const navLinks = [
@@ -154,18 +157,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
-    iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    title: "Solutions Analyst",
+    company_name: "ThoughtSpot",
+    icon: thoughtspot, // placeholder
+    iconBg: "#000000",
+    date: "Sept 2023 – May 2025",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Built evaluation benchmarks for large language models in the core GenAI team.",
+      "Analyzed LLM code-gen and data outputs to drive model improvements.",
+      "Delivered ROI insights using a Business Value Calculator built on Squirrel.io.",
+      "Built an end-to-end EPL data pipeline using Python and Snowflake with API error handling."
+    ]
   },
+  {
+    title: "Data Analyst",
+    company_name: "SagasIT Analytics",
+    icon: sagasit, // placeholder
+    iconBg: "#ffffff",
+    date: "Aug 2022 – Sept 2023",
+    points: [
+      "Built 25+ hyperautomation workflows using Make and Zapier.",
+      "Developed Power BI dashboards integrated with Power Apps and Automate.",
+      "Created ETL pipelines with Python and SQL for AWS-based data integration."
+    ]
+  },
+  {
+    title: "Data Science Intern",
+    company_name: "SagasIT Analytics",
+    icon: sagasit, // placeholder
+    iconBg: "#ffffff",
+    date: "Mar 2022 – Aug 2022",
+    points: [
+      "Automated web scraping workflows using Selenium and Python.",
+      "Built sales prediction models using regression.",
+      "Created interactive dashboards with advanced DAX in Power BI."
+    ]
+  },
+  {
+    title: "Business Analyst",
+    company_name: "SkillCat Ltd",
+    icon: skillcat, // placeholder
+    iconBg: "#ffffff",
+    date: "Jul 2021 – Jan 2022",
+    points: [
+      "Developed dashboards using Google Data Studio for executive reporting.",
+      "Conducted market research and campaign analysis with Marketing team.",
+      "Built predictive sales analytics dashboards for strategy planning."
+    ]
+  }
 ];
 
 const testimonials = [
